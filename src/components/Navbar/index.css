@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+.nav-light-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid 2px #dcdcdc;
+}
+
+.nav-dark-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333333;
+}
+
+.website-logo {
+  width: 40px;
+}
+
+.theme-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.theme-logo {
+  width: 30px;
+}
+
+.nav-items-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.light-nav-item {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.dark-nav-item {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav-link {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}

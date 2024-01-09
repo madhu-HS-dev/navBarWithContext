@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.home-container {
+  min-height: 100vh;
+}
+
+.dark-home-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.home-image {
+  width: 120px;
+  height: 110px;
+}
+
+.home-logo-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.dark-home-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+}

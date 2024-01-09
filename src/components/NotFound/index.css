@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.not-found-container {
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.not-found-image {
+  width: 200px;
+}
+
+.not-found-logo-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.not-found-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
